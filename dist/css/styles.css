@@ -143,16 +143,36 @@ nav ul li a:hover {
   max-width: 100%;
 }
 
+#flor {
+  padding: 1rem;
+  text-align: center;
+  margin: 5px;
+}
+#flor h3 {
+  color: #495371;
+  font-size: 1.2rem;
+}
+#flor h4 {
+  font-size: 1.2rem;
+  color: #74959A;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#flor p {
+  margin-top: 5px;
+  color: #495371;
+}
+
 footer {
   text-align: center;
   font-size: 1.5rem;
   border-top: 2px solid #495371;
   margin-top: 1rem;
   padding: 1.2rem;
-  background: linear-gradient(to left, #495371, #74959A, #F1E0AC, #495371);
+  background: linear-gradient(to right, #495371, #74959A, #F1E0AC, #F1E0AC);
 }
 footer i {
   color: red;
-}
-
-/* @use 'componets/footer';*//*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
